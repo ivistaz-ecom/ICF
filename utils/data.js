@@ -28,12 +28,12 @@ export const ourMissionData = [
   {
     imageUrl: "/ourMission/img02.png",
     title: "Trendsetters for Change",
-    desc: "Our mission is to harness the power of collaboration, innovation, and strategic partnerships to drive systemic change.",
+    desc: "We aim to be trendsetters and agents of change, providing solutions that are not only effective but also ethical, inclusive, and centered around the communities we serve.",
   },
   {
     imageUrl: "/ourMission/img03.png",
     title: "Sustainable Impact",
-    desc: "Our mission is to harness the power of collaboration, innovation, and strategic partnerships to drive systemic change.",
+    desc: "By leveraging insights, data, and technology, we develop tailored solutions that deliver sustainable impact at scale.",
   },
 ]
 
