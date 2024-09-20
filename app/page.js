@@ -14,7 +14,7 @@ export default function Home() {
     <>
       <div className="relative">
         <Header />
-        <div className="absolute top-2/3 left-0 right-0">
+        <div className="absolute top-[50%] md:top-[60%] left-0 right-0">
           <WhoWeAre />
         </div>
       </div>
