@@ -66,13 +66,13 @@ export const whatWeDoData = [
   },
   {
     imageUrl: "/whatWeDo/img02.png",
-    iconUrl: "/whatWeDo/icon02.svg",
+    iconUrl: "/whatWeDo/icon03.svg",
     desc: "We incubate and manage social businesses that balance profit-making with solving systemic problems",
     bgColor: "#E53990",
   },
   {
     imageUrl: "/whatWeDo/img03.png",
-    iconUrl: "/whatWeDo/icon03.svg",
+    iconUrl: "/whatWeDo/icon02.svg",
     desc: "We facilitate collaboration among multiple stakeholders to achieve large-scale, sustainable outcomes",
     bgColor: "#0172BB",
   },
