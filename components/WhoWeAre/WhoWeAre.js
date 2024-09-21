@@ -4,10 +4,10 @@ import React from "react"
 
 const WhoWeAre = () => {
   return (
-    <div className="max-w-screen-xl mx-auto flex flex-col items-center gap-3 -mt-[275px] sm:-mt-[350px] md:-mt-[300px]">
+    <div className="max-w-screen-xl mx-auto flex flex-col items-center gap-3">
       <h2 className="text-icf-black text-3xl font-semibold">Who We Are</h2>
       <Image src="/arrow.svg" width={60} height={10} alt="arrow" />
-      <div className="flex justify-center px-4 mt-3">
+      <div className="flex justify-center px-4">
         <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {whoWeAreData.map((item, index) => {
             const getBackgroundColor = (index) => {
@@ -29,7 +29,7 @@ const WhoWeAre = () => {
                 className="flex group transition-all duration-300"
               >
                 <div
-                  className={`rounded-2xl w-full flex flex-col transition-all duration-300 group-hover:bg-white ${getBackgroundColor(
+                  className={`rounded-2xl w-[325px] flex flex-col transition-all duration-300 group-hover:bg-white ${getBackgroundColor(
                     index
                   )}`}
                   // style={{ backgroundColor: item.bgColor }}
@@ -37,13 +37,13 @@ const WhoWeAre = () => {
                   <div className="overflow-hidden rounded-t-2xl">
                     <Image
                       src={item.imageUrl}
-                      width={368}
-                      height={270}
+                      width={300}
+                      height={200}
                       alt={item.title}
-                      className="rounded-t-2xl w-full transition-transform duration-300 group-hover:scale-105"
+                      className="rounded-t-2xl w-full h-[200px] transition-transform duration-300 group-hover:scale-105"
                     />
                   </div>
-                  <div className="pt-5 pb-14 px-5 flex flex-col items-center gap-5 flex-grow">
+                  <div className="p-5 flex flex-col items-center gap-3 flex-grow">
                     <h3 className="text-white text-2xl font-semibold text-center transition-all duration-300 group-hover:text-black">
                       {item.title}
                     </h3>

@@ -14,7 +14,7 @@ export default function Home() {
     <>
       <Header />
 
-      <WhoWeAre />
+      {/* <WhoWeAre /> */}
 
       <OurMission />
 
