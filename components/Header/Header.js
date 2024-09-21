@@ -1,5 +1,6 @@
 import Image from "next/image"
 import React from "react"
+import WhoWeAre from "../WhoWeAre/WhoWeAre"
 
 const Header = () => {
   return (
@@ -29,6 +30,7 @@ const Header = () => {
           <button className="px-4 py-2 md:px-5 md:py-2 border border-icf-black rounded-3xl transition duration-300 ease-in-out hover:bg-icf-black hover:text-white">
             Learn more
           </button>
+          {/* <WhoWeAre /> */}
         </div>
       </div>
     </div>

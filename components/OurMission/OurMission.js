@@ -13,7 +13,7 @@ const OurMission = () => {
   }
 
   return (
-    <div className="max-w-screen-xl mx-auto flex flex-col items-center gap-3 mt-[1380px] md:mt-[400px]">
+    <div className="max-w-screen-xl mx-auto flex flex-col items-center gap-3 mt-14">
       <h2 className="text-icf-black text-3xl font-semibold text-center md:text-left">
         Our Mission
       </h2>

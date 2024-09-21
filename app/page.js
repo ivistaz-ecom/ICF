@@ -12,14 +12,12 @@ import Image from "next/image"
 export default function Home() {
   return (
     <>
-      <div className="relative">
-        <Header />
-        <div className="absolute top-[60%] left-0 right-0">
-          <WhoWeAre />
-        </div>
-      </div>
+      <Header />
+
+      <WhoWeAre />
 
       <OurMission />
+
       <OurApproach />
       <WhatWeDo />
       <OurOfferings />
