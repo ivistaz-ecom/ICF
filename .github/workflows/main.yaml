@@ -27,4 +27,4 @@ jobs:
             sudo git pull origin main
             sudo npm install
             sudo npm run build
-            # sudo pm2 restart 18
+            sudo pm2 restart 10
