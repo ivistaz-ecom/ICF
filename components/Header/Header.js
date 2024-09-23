@@ -4,7 +4,7 @@ import WhoWeAre from "../WhoWeAre/WhoWeAre"
 
 const Header = () => {
   return (
-    <div className="bg-[url('/banner.png')] min-h-screen bg-cover bg-center">
+    <div className="bg-[url('/mBanner.png')] md:bg-[url('/banner.png')] min-h-screen bg-cover md:bg-center">
       <div className="flex flex-col md:items-center p-4 max-w-screen-xl mx-auto">
         {/* Logo */}
         <Image
