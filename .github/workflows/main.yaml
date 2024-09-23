@@ -22,8 +22,8 @@ jobs:
           # passphrase: ${{ secrets.SSH_PASSPHRASE }} # Your server's SSH passphrase if applicable
 
           script: |
-            cd /home/react/icf
-            git config --global --add safe.directory /home/react/icf
+            cd /home/react-staging/icf
+            git config --global --add safe.directory /home/react-staging/icf
             sudo git pull origin main
             # sudo npm install
             # sudo npm run build
