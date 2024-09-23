@@ -25,6 +25,6 @@ jobs:
             cd /home/react-staging/icf
             git config --global --add safe.directory /home/react-staging/icf
             sudo git pull origin main
-            # sudo npm install
-            # sudo npm run build
+            sudo npm install
+            sudo npm run build
             # sudo pm2 restart 18
