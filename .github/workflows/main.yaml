@@ -25,6 +25,6 @@ jobs:
             cd /home/react/icf
             git config --global --add safe.directory /home/react/icf
             sudo git pull origin main
-            sudo npm install
-            sudo npm run build
-            sudo pm2 restart 18
+            # sudo npm install
+            # sudo npm run build
+            # sudo pm2 restart 18
