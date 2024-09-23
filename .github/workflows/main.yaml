@@ -3,6 +3,7 @@ name: Build & Deploy
 on:
   push:
     branches: [main]
+     workflow_dispatch: # Manual trigger
 
 jobs:
   deploy:
@@ -11,7 +12,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Deploy Staging CMS
+      - name: Deploy Staging ICF
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.HOST }} # Your server's IP address
@@ -21,9 +22,9 @@ jobs:
           # passphrase: ${{ secrets.SSH_PASSPHRASE }} # Your server's SSH passphrase if applicable
 
           script: |
-            cd /home/react-staging/cms
-            git config --global --add safe.directory /home/react-staging/cms
+            cd /home/react/icf
+            git config --global --add safe.directory /home/react/icf
             sudo git pull origin main
             sudo npm install
             sudo npm run build
-            sudo pm2 restart 8
+            sudo pm2 restart 18
