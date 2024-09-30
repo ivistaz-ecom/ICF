@@ -9,6 +9,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        <meta name="robots" content="index, follow" />
         {/* Inject JSON-LD structured data for Schema.org */}
         <script
           type="application/ld+json"
