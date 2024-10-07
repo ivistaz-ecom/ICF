@@ -3,7 +3,7 @@ import Image from "next/image"
 
 const OurApproach = () => {
   return (
-    <div className="bg-[#232A35] py-10">
+    <div className="bg-[#232A35] mt-10 py-10">
       <div className="max-w-screen-xl mx-auto flex flex-col items-center gap-3">
         <h2 className="text-white text-3xl font-semibold">Our Approach</h2>
         <Image src="/arrow.svg" width={60} height={10} alt="arrow" />
