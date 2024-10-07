@@ -1,3 +1,4 @@
+import ComplianceAndStatutory from "@/components/ComplianceAndStatutory/ComplianceAndStatutory"
 import Footer from "@/components/Footer/Footer"
 import Header from "@/components/Header/Header"
 import Leadership from "@/components/Leadership/Leadership"
@@ -28,6 +29,7 @@ export default function Home() {
       <OurOfferings />
       <WhyChoose />
       <Leadership />
+      <ComplianceAndStatutory />
       <Footer />
     </>
   )

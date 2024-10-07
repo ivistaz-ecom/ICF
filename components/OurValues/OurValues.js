@@ -17,7 +17,6 @@ const OurValues = () => {
     autoplay: true,
     autoplaySpeed: 3000,
     arrows: false,
-    padding: "60px",
   }
 
   return (
@@ -44,7 +43,7 @@ const OurValues = () => {
                   width={300}
                   height={300}
                   alt="our values"
-                  className="w-full md:w-[356px] h-auto"
+                  className="w-full md:w-[356px] h-auto md:h-[356px]"
                 />
                 <div className="flex flex-col gap-5 px-5 md:px-0">
                   <h2 className="text-[#0172BB] text-xl md:text-[28px] font-semibold">
