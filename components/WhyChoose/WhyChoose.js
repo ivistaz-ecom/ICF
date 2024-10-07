@@ -4,7 +4,7 @@ import Image from "next/image"
 
 const WhyChoose = () => {
   return (
-    <div className="max-w-screen-xl mx-auto flex flex-col items-center gap-3 mt-20">
+    <div className="max-w-screen-xl mx-auto flex flex-col items-center gap-3 mt-28">
       <h2 className="text-icf-black text-3xl font-semibold text-center px-3">
         Why Choose Impact Catalyst Foundation?
       </h2>

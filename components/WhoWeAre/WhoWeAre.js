@@ -26,7 +26,7 @@ const WhoWeAre = () => {
             return (
               <li
                 key={index}
-                className="flex group transition-all duration-300"
+                className="flex group transition-all duration-300 cursor-pointer"
               >
                 <div
                   className={`rounded-2xl w-[325px] flex flex-col transition-all duration-300 group-hover:bg-white ${getBackgroundColor(
