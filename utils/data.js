@@ -182,7 +182,7 @@ export const ourValuesData = [
       "The personal meaning and joy that we experience in working, leads each one of us to pursue excellence in everything we do in life.",
   },
   {
-    imageUrl: "/ourValues/image02.png",
+    imageUrl: "/ourValues/image04.png",
     title: "“Guided by Love, Peace, and Non-violence”",
     subtitle:
       "Our interactions with people both within the organisation and outside are guided by our love for each other as fellow travellers who share a common humanitarian goal, desire for peace at all levels (individual and collective) and non-violence.",
