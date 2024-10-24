@@ -21,13 +21,13 @@ export default function Home() {
       {/* <WhoWeAre /> */}
 
       <OurVision />
-      <OurMission />
+      {/* <OurMission /> */}
       <OurValues />
       <OurApproach />
       <WhatWeDo />
       <OurDomains />
-      <OurOfferings />
-      <WhyChoose />
+      {/* <OurOfferings /> */}
+      {/* <WhyChoose /> */}
       <Leadership />
       <ComplianceAndStatutory />
       <Footer />

@@ -59,28 +59,49 @@ export const OurApproachData = [
 
 export const whatWeDoData = [
   {
-    imageUrl: "/whatWeDo/img01.png",
-    iconUrl: "/whatWeDo/icon01.svg",
-    desc: "We provide expert guidance on strategy development, programme design, and impact assessment",
-    bgColor: "#FDB622",
+    imageUrl: "/whatWeDo/image01.png",
+    iconUrl: "",
+    title: "Initiatives and Projects",
+    fontColor: "#0172BB",
+    desc: "We design and implement targeted projects that drive measurable social impact, empowering vulnerable communities through sustainable, inclusive programs across health, livelihood, workforce wellbeing and climate action.",
+    point01:
+      "i4we (invest for wellness), a system innovation in primary health care, designed to be affordable, quality-assured, and scalable.",
+    point02:
+      "The 3Fold model, seeking to reinvent the farmer extension, credit, agri and food systems in favour of the small farmer, while tripling their income over five years.",
+    logoUrl: "",
   },
   {
-    imageUrl: "/whatWeDo/img02.png",
-    iconUrl: "/whatWeDo/icon03.svg",
-    desc: "We incubate and manage social businesses that balance profit-making with solving systemic problems",
-    bgColor: "#E53990",
+    imageUrl: "/whatWeDo/image02.png",
+    iconUrl: "",
+    title: "Collaboratives and Platforms",
+    fontColor: "#E53990",
+    desc: "We foster multi-stakeholder collaboratives and platforms, uniting government, businesses, and civil society to co-create scalable, transformative solutions for systemic change.",
+    point01:
+      "Community Action Collab, a dynamic humanitarian emergency platform building the resilience of Vulnerable People and their institutions, in their everyday emergencies; and are ready for future humanitarian crises.",
+    point02: "",
+    logoUrl: "",
   },
   {
-    imageUrl: "/whatWeDo/img03.png",
-    iconUrl: "/whatWeDo/icon02.svg",
-    desc: "We facilitate collaboration among multiple stakeholders to achieve large-scale, sustainable outcomes",
-    bgColor: "#0172BB",
+    imageUrl: "/whatWeDo/image03.png",
+    iconUrl: "",
+    title: "Innovation and Knowledge",
+    fontColor: "#31AA2D",
+    desc: "We drive innovation through cutting-edge research and capacity-building, developing scalable models and sharing knowledge to empower communities and leaders to address complex challenges.",
+    point01:
+      "A co-authored policy paper with the Revitalization of Rainfed Agriculture Network (RRAN), on making rainfed agriculture remunerative for small and marginal farmers",
+    point02: "",
+    logoUrl: "",
   },
   {
-    imageUrl: "/whatWeDo/img04.png",
-    iconUrl: "/whatWeDo/icon04.svg",
-    desc: "We design and implement programs that promote sustainability and equity across various sectors",
-    bgColor: "#E13A3B",
+    imageUrl: "/whatWeDo/image04.png",
+    iconUrl: "/whatWeDo/logo03.png",
+    title: "Sectoral Engagements",
+    fontColor: "#232A35",
+    desc: "Our sectoral engagements involve deep partnerships with industries, policymakers, and grassroots organizations to influence systemic change and create long-term, sustainable social impact.",
+    point01:
+      "Active membership in Catalsyt2030, a global movement for achieving the SDGs by 2030; contributing to working groups, part of governance mechanisms, and supporting collaborations on health, climate, localization.",
+    point02: "",
+    logoUrl: "",
   },
 ]
 

@@ -4,7 +4,7 @@ import Image from "next/image"
 
 const Leadership = () => {
   return (
-    <div className="bg-icf-blue mt-28 py-10">
+    <div className="bg-icf-blue py-10">
       <div className="max-w-screen-xl mx-auto flex flex-col items-center gap-3">
         <h2 className="text-white text-3xl font-semibold text-center">
           Leadership
