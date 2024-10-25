@@ -100,7 +100,7 @@ export const whatWeDoData = [
     fontColor: "#232A35",
     desc: "Our sectoral engagements involve deep partnerships with industries, policymakers, and grassroots organisations to influence systemic change and create long-term, sustainable social impact.",
     point01:
-      "Active membership in <span class='highlight'>Catalsyt2030,</span> a global movement for achieving the SDGs by 2030; contributing to working groups, part of governance mechanisms, and supporting collaborations on health, climate, localisation.",
+      "Active membership in <span class='highlight'>Catalsyt 2030,</span> a global movement for achieving the SDGs by 2030; contributing to working groups, part of governance mechanisms, and supporting collaborations on health, climate, localisation.",
     point02: "",
     logoUrl: "",
   },
