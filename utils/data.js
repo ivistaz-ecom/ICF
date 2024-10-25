@@ -89,7 +89,7 @@ export const whatWeDoData = [
     fontColor: "#31AA2D",
     desc: "We drive innovation through cutting-edge research and capacity-building, developing scalable models and sharing knowledge to empower communities and leaders to address complex challenges.",
     point01:
-      "A co-authored policy paper with the <span class='highlight'>Revitalization of Rainfed Agriculture Network (RRAN),</span> on making rainfed agriculture remunerative for small and marginal farmers",
+      "A co-authored policy paper with the <span class='highlight'>Revitalization of Rainfed Agriculture Network (RRAN),</span> on making rainfed agriculture remunerative for small and marginal farmers.",
     point02: "",
     logoUrl: "",
   },
@@ -100,7 +100,7 @@ export const whatWeDoData = [
     fontColor: "#232A35",
     desc: "Our sectoral engagements involve deep partnerships with industries, policymakers, and grassroots organisations to influence systemic change and create long-term, sustainable social impact.",
     point01:
-      "Active membership in <span class='highlight'>Catalsyt 2030,</span> a global movement for achieving the SDGs by 2030; contributing to working groups, part of governance mechanisms, and supporting collaborations on health, climate, localisation.",
+      "Active membership in <span class='highlight'>Catalyst 2030,</span> a global movement for achieving the SDGs by 2030; contributing to working groups, part of governance mechanisms, and supporting collaborations on health, climate, localisation.",
     point02: "",
     logoUrl: "",
   },
@@ -199,7 +199,7 @@ export const ourValuesData = [
     desc01:
       "Our environment encourages our people to dream big and pursue audacious goals, be innovative in that pursuit and stay outcome oriented. We take responsibility for whatever needs to be done, always stepping up to honour our commitments and promises.",
     desc02:
-      "We strive to empower people with the freedom to experiment, take leadership, question /challenge, get out of their comfort zone, learn, embrace change including adopting and using technology as they drive to impact at scale.",
+      "We strive to empower people with the freedom to experiment, take leadership, question/challenge, get out of their comfort zone, learn, embrace change including adopting and using technology as they drive to impact at scale.",
     desc03:
       "The personal meaning and joy that we experience in working, leads each one of us to pursue excellence in everything we do in life.",
   },
