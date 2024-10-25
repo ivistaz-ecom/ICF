@@ -2,7 +2,7 @@ export const whoWeAreData = [
   {
     imageUrl: "/whoWeAre/img01.png",
     title: "Commitment to Impact",
-    desc: "At the Impact Catalyst Foundation, we are committed to creating meaningful, lasting impact for communities by balancing purpose and profit",
+    desc: "At the Impact Catalyst Foundation, we are committed to creating purpose driven meaningful, lasting impact for communities.",
     bgColor: "#E53990",
   },
   {
@@ -65,9 +65,9 @@ export const whatWeDoData = [
     fontColor: "#0172BB",
     desc: "We design and implement targeted projects that drive measurable social impact, empowering vulnerable communities through sustainable, inclusive programs across health, livelihood, workforce wellbeing and climate action.",
     point01:
-      "i4we (invest for wellness), a system innovation in primary health care, designed to be affordable, quality-assured, and scalable.",
+      "<span class='highlight'>i4we (invest for wellness),</span> a system innovation in primary health care, designed to be affordable, quality-assured, and scalable.",
     point02:
-      "The 3Fold model, seeking to reinvent the farmer extension, credit, agri and food systems in favour of the small farmer, while tripling their income over five years.",
+      "The <span class='highlight'>3Fold model,</span> seeking to reinvent the farmer extension, credit, agri and food systems in favour of the small farmer, while tripling their income over five years.",
     logoUrl: "",
   },
   {
@@ -77,7 +77,7 @@ export const whatWeDoData = [
     fontColor: "#E53990",
     desc: "We foster multi-stakeholder collaboratives and platforms, uniting government, businesses, and civil society to co-create scalable, transformative solutions for systemic change.",
     point01:
-      "Community Action Collab, a dynamic humanitarian emergency platform building the resilience of Vulnerable People and their institutions, in their everyday emergencies; and are ready for future humanitarian crises.",
+      "<span class='highlight'>Community Action Collab,</span> a dynamic humanitarian emergency platform building the resilience of Vulnerable People and their institutions, in their everyday emergencies; and ensuring they are ready for future humanitarian crises.",
     point02: "",
     logoUrl: "",
   },
@@ -88,7 +88,7 @@ export const whatWeDoData = [
     fontColor: "#31AA2D",
     desc: "We drive innovation through cutting-edge research and capacity-building, developing scalable models and sharing knowledge to empower communities and leaders to address complex challenges.",
     point01:
-      "A co-authored policy paper with the Revitalization of Rainfed Agriculture Network (RRAN), on making rainfed agriculture remunerative for small and marginal farmers",
+      "A co-authored policy paper with the <span class='highlight'>Revitalization of Rainfed Agriculture Network (RRAN),</span> on making rainfed agriculture remunerative for small and marginal farmers",
     point02: "",
     logoUrl: "",
   },
@@ -99,7 +99,7 @@ export const whatWeDoData = [
     fontColor: "#232A35",
     desc: "Our sectoral engagements involve deep partnerships with industries, policymakers, and grassroots organizations to influence systemic change and create long-term, sustainable social impact.",
     point01:
-      "Active membership in Catalsyt2030, a global movement for achieving the SDGs by 2030; contributing to working groups, part of governance mechanisms, and supporting collaborations on health, climate, localization.",
+      "Active membership in <span class='highlight'>Catalsyt2030,</span> a global movement for achieving the SDGs by 2030; contributing to working groups, part of governance mechanisms, and supporting collaborations on health, climate, localization.",
     point02: "",
     logoUrl: "",
   },

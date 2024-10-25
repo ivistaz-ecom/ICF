@@ -1,9 +1,9 @@
 import Image from "next/image"
 import React from "react"
 
-const OurVision = () => {
+const OurVisionMission = () => {
   return (
-    <div className="max-w-screen-xl mx-auto flex justify-center items-center gap-10 mt-24">
+    <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row justify-center items-center md:items-start gap-10 mt-24">
       {/* Our Vision Section */}
       <div className="flex flex-col items-center gap-3 w-80">
         <h2 className="text-icf-black text-3xl font-semibold text-center">
@@ -16,7 +16,7 @@ const OurVision = () => {
       </div>
 
       {/* Vertical Line */}
-      <div className="w-px h-32 bg-gray-300"></div>
+      <div className="w-px h-32 bg-gray-300 hidden md:block"></div>
 
       {/* Our Mission Section */}
       <div className="flex flex-col items-center gap-3 w-80">
@@ -33,4 +33,4 @@ const OurVision = () => {
   )
 }
 
-export default OurVision
+export default OurVisionMission

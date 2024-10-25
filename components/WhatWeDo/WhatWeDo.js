@@ -53,56 +53,68 @@ const WhatWeDo = () => {
           {whatWeDoData.map((item, index) => {
             return (
               <li key={index}>
-                <div className="p-5 border-b border-dashed pb-10">
-                  <div className="flex justify-between items-center">
+                <div
+                  className={`p-5 pb-10 ${
+                    index !== whatWeDoData.length - 1
+                      ? "border-b border-dashed"
+                      : ""
+                  }`}
+                >
+                  <div className="flex flex-col md:flex-row justify-between items-center gap-5">
+                    {/* Image order based on even/odd index */}
                     <Image
                       src={item.imageUrl}
                       width={320}
                       height={320}
                       alt={item.title}
-                      className={`w-80 h-80 ${
-                        index % 2 === 1 ? "order-1" : ""
-                      }`} // Main image
+                      className={`w-80 h-80 object-contain ${
+                        index % 2 === 1 ? "md:order-1" : "md:order-0"
+                      }`}
                     />
-                    <div className="flex flex-col gap-3 w-[750px]">
+                    <div className="flex flex-col gap-3 w-full md:w-[750px]">
                       <h2
                         className="text-3xl font-semibold"
                         style={{ color: item.fontColor }}
                       >
                         {item.title}
                       </h2>
-
                       <p className="text-2xl">{item.desc}</p>
 
                       {/* Render the first point with optional icon */}
                       {item.point01 && (
-                        <div className="flex gap-3">
+                        <div className="flex gap-3 items-start">
                           {item.iconUrl && (
                             <Image
                               src={item.iconUrl}
-                              width={176} // Match the icon width
-                              height={100} // Adjust height to maintain aspect ratio if needed
-                              alt="image"
-                              className="w-full h-full object-contain"
+                              width={176}
+                              height={100}
+                              alt="icon"
+                              className="w-[176px] h-auto object-contain"
                             />
                           )}
-                          <p className="text-lg w-90">{item.point01}</p>
+                          <p
+                            className="text-lg w-90"
+                            dangerouslySetInnerHTML={{ __html: item.point01 }}
+                          />
                         </div>
                       )}
 
                       {/* Render the second point with optional icon */}
                       {item.point02 && (
-                        <div className="flex gap-3">
+                        <div className="flex gap-3 items-start">
                           {item.iconUrl && (
                             <Image
                               src={item.iconUrl}
-                              width={176} // Match the icon width
-                              height={100} // Adjust height to maintain aspect ratio if needed
-                              alt="image"
-                              className="w-full h-full object-contain"
+                              width={176}
+                              height={100}
+                              alt="icon"
+                              className="w-[176px] h-auto object-contain"
                             />
                           )}
-                          <p className="text-lg w-90">{item.point02}</p>
+                          <p
+                            className="text-lg w-90"
+                            dangerouslySetInnerHTML={{ __html: item.point02 }}
+                          />
                         </div>
                       )}
                     </div>
