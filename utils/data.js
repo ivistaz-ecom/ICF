@@ -72,7 +72,7 @@ export const whatWeDoData = [
   },
   {
     imageUrl: "/whatWeDo/image02.png",
-    iconUrl: "",
+    iconUrl: "/whatWeDo/logo04.png",
     title: "Collaboratives and Platforms",
     fontColor: "#E53990",
     desc: "We foster multi-stakeholder collaboratives and platforms, uniting government, businesses, and civil society to co-create scalable, transformative solutions for systemic change.",

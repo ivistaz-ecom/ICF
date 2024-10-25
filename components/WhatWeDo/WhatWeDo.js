@@ -82,18 +82,20 @@ const WhatWeDo = () => {
 
                       {/* Render the first point with optional icon */}
                       {item.point01 && (
-                        <div className="flex gap-3 items-start">
+                        <div className="flex flex-col sm:flex-row gap-3 items-start">
                           {item.iconUrl && (
-                            <Image
-                              src={item.iconUrl}
-                              width={176}
-                              height={100}
-                              alt="icon"
-                              className="w-[176px] h-auto object-contain"
-                            />
+                            <div className="w-[176px] flex-shrink-0">
+                              <Image
+                                src={item.iconUrl}
+                                width={176}
+                                height={100}
+                                alt="icon"
+                                className="w-full h-auto object-contain"
+                              />
+                            </div>
                           )}
                           <p
-                            className="text-lg w-90"
+                            className="text-lg flex-1"
                             dangerouslySetInnerHTML={{ __html: item.point01 }}
                           />
                         </div>
@@ -101,18 +103,20 @@ const WhatWeDo = () => {
 
                       {/* Render the second point with optional icon */}
                       {item.point02 && (
-                        <div className="flex gap-3 items-start">
+                        <div className="flex flex-col sm:flex-row gap-3 items-start">
                           {item.iconUrl && (
-                            <Image
-                              src={item.iconUrl}
-                              width={176}
-                              height={100}
-                              alt="icon"
-                              className="w-[176px] h-auto object-contain"
-                            />
+                            <div className="w-[176px] flex-shrink-0">
+                              <Image
+                                src={item.iconUrl}
+                                width={176}
+                                height={100}
+                                alt="icon"
+                                className="w-full h-auto object-contain"
+                              />
+                            </div>
                           )}
                           <p
-                            className="text-lg w-90"
+                            className="text-lg flex-1"
                             dangerouslySetInnerHTML={{ __html: item.point02 }}
                           />
                         </div>
