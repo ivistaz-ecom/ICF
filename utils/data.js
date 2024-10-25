@@ -2,7 +2,7 @@ export const whoWeAreData = [
   {
     imageUrl: "/whoWeAre/img01.png",
     title: "Commitment to Impact",
-    desc: "At the Impact Catalyst Foundation, we are committed to creating purpose driven meaningful, lasting impact for communities.",
+    desc: "At the Impact Catalyst Foundation, we are committed to creating purpose driven meaningful, lasting impact for communities",
     bgColor: "#E53990",
   },
   {
@@ -40,20 +40,21 @@ export const ourMissionData = [
 export const OurApproachData = [
   {
     logoUrl: "/ourApproach/icon01.svg",
-    title: "We adopt a people and planet centric approach,",
-    desc: "ensuring that our work is closely aligned with the needs and priorities of our communities, our environment and our partners.",
+    title:
+      "We adopt a people and planet centric approach, ensuring that our work is closely aligned with the needs and priorities of our communities, our environment and our partners.",
+    desc: "",
   },
   {
     logoUrl: "/ourApproach/icon02.svg",
     title:
-      "We understand the importance of balancing deep, innovative work with repeatable, scalable models.",
-    desc: "Our decision-making frameworks help us navigate this balance, ensuring that our solutions are both impactful and sustainable.",
+      "We understand the importance of balancing deep, innovative work with repeatable, scalable models. Our decision-making frameworks help us navigate this balance, ensuring that our solutions are both impactful and sustainable.",
+    desc: "",
   },
   {
     logoUrl: "/ourApproach/icon03.svg",
     title:
-      "While our organisation is multifaceted, we channel this complexity into a clear, coherent strategy that highlights our diverse competencies.",
-    desc: "This allows us to deliver targeted, effective solutions across various sectors and geographies.",
+      "While our organisation is multifaceted, we channel this complexity into a clear, coherent strategy that highlights our diverse competencies. This allows us to deliver targeted, effective solutions across various sectors and geographies.",
+    desc: "",
   },
 ]
 
@@ -72,7 +73,7 @@ export const whatWeDoData = [
   },
   {
     imageUrl: "/whatWeDo/image02.png",
-    iconUrl: "/whatWeDo/logo04.png",
+    iconUrl: "/whatWeDo/logo05.png",
     title: "Collaboratives and Platforms",
     fontColor: "#E53990",
     desc: "We foster multi-stakeholder collaboratives and platforms, uniting government, businesses, and civil society to co-create scalable, transformative solutions for systemic change.",
@@ -97,9 +98,9 @@ export const whatWeDoData = [
     iconUrl: "/whatWeDo/logo03.png",
     title: "Sectoral Engagements",
     fontColor: "#232A35",
-    desc: "Our sectoral engagements involve deep partnerships with industries, policymakers, and grassroots organizations to influence systemic change and create long-term, sustainable social impact.",
+    desc: "Our sectoral engagements involve deep partnerships with industries, policymakers, and grassroots organisations to influence systemic change and create long-term, sustainable social impact.",
     point01:
-      "Active membership in <span class='highlight'>Catalsyt2030,</span> a global movement for achieving the SDGs by 2030; contributing to working groups, part of governance mechanisms, and supporting collaborations on health, climate, localization.",
+      "Active membership in <span class='highlight'>Catalsyt2030,</span> a global movement for achieving the SDGs by 2030; contributing to working groups, part of governance mechanisms, and supporting collaborations on health, climate, localisation.",
     point02: "",
     logoUrl: "",
   },
@@ -194,7 +195,7 @@ export const ourValuesData = [
     imageUrl: "/ourValues/image01.png",
     title: "“Driven by Purpose, Vision and Meaning”",
     subtitle:
-      "All our actions are driven by our shared “purpose”, our “vision” of/for the future and the personal “meaning” and joy that we derive from our work.",
+      "All our actions are driven by our shared “purpose”, our “vision” for the future and the personal “meaning” and joy that we derive from our work.",
     desc01:
       "Our environment encourages our people to dream big and pursue audacious goals, be innovative in that pursuit and stay outcome oriented. We take responsibility for whatever needs to be done, always stepping up to honour our commitments and promises.",
     desc02:
@@ -204,7 +205,7 @@ export const ourValuesData = [
   },
   {
     imageUrl: "/ourValues/image04.png",
-    title: "“Guided by Love, Peace, and Non-violence”",
+    title: "“Guided by Love, Peace, and Non-Violence”",
     subtitle:
       "Our interactions with people both within the organisation and outside are guided by our love for each other as fellow travellers who share a common humanitarian goal, desire for peace at all levels (individual and collective) and non-violence.",
     desc01:

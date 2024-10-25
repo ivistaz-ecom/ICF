@@ -23,10 +23,8 @@ const OurApproach = () => {
                       />
                     </div>
                     <div className="pt-5 flex flex-col gap-5 flex-grow">
-                      <h3 className="text-2xl font-semibold text-white">
-                        {item.title}
-                      </h3>
-                      <p className="text-[#D8D8D8] text-lg">{item.desc}</p>
+                      <h3 className="text-xl text-white">{item.title}</h3>
+                      {/* <p className="text-[#D8D8D8] text-lg">{item.desc}</p> */}
                     </div>
                   </div>
                 </li>
