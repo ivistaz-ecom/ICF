@@ -4,7 +4,7 @@ import React from "react"
 const Footer = () => {
   return (
     <>
-      <div className="overflow-hidden p-5">
+      <div className="overflow-hidden p-5 mt-24">
         <ul className="flex gap-5 animate-scroll">
           {/* Original Items */}
           <li className="flex items-center gap-3 whitespace-nowrap">

@@ -3,7 +3,7 @@ import Image from "next/image"
 
 const WhatWeDo = () => {
   return (
-    <div className="max-w-screen-xl mx-auto flex flex-col items-center gap-3 mt-28">
+    <div className="max-w-screen-xl mx-auto flex flex-col items-center gap-3 mt-24">
       <h2 className="text-icf-black text-3xl font-semibold">What We Do</h2>
       <Image src="/arrow.svg" width={60} height={10} alt="arrow" />
       <div className="flex w-full">

@@ -13,35 +13,27 @@ const OurDomains = () => {
           <Image src="/arrow.svg" width={60} height={10} alt="arrow" />
         </div>
         <div className="flex justify-center w-full px-4 md:px-0">
-          <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-10">
+          <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {ourDomainsData.map((item, index) => {
               return (
                 <li
                   key={index}
-                  className="relative group w-[300px] h-[300px] cursor-pointer"
+                  className="w-[368px] bg-white rounded-xl px-5 py-8 flex flex-col gap-5 items-center"
                 >
-                  <div className="">
-                    <Image
-                      src={item.imageUrl}
-                      width={300}
-                      height={300}
-                      alt="what we do"
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-
-                  <div className="absolute group inset-0 flex flex-col p-5 items-center justify-center">
-                    {/* <Image
-                      src={item.iconUrl}
-                      width={40}
-                      height={40}
-                      alt="icon"
-                      className="w-10 h-10"
-                    /> */}
-                    <p className="text-white text-xl text-center mt-4">
-                      {item.title}
-                    </p>
-                  </div>
+                  <Image
+                    src={item.imageUrl}
+                    width={240}
+                    height={240}
+                    className="w-60 h-60"
+                    alt={`image ${index + 1}`}
+                  />
+                  <h3 className="text-icf-black text-2xl text-center font-semibold">
+                    {item.title}
+                  </h3>
+                  <ul className="text-icf-black text-xl list-disc ps-5">
+                    <li>{item.desc1}</li>
+                    <li>{item.desc2}</li>
+                  </ul>
                 </li>
               )
             })}

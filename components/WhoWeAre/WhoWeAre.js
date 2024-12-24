@@ -4,11 +4,13 @@ import React from "react"
 
 const WhoWeAre = () => {
   return (
-    <div className="max-w-screen-xl mx-auto flex flex-col items-center gap-3">
-      <h2 className="text-icf-black text-3xl font-semibold">Who We Are</h2>
-      <Image src="/arrow.svg" width={60} height={10} alt="arrow" />
+    <div className="max-w-screen-xl mx-auto flex flex-col items-center gap-7 mt-24">
+      <div className="flex flex-col items-center gap-3">
+        <h2 className="text-icf-black text-3xl font-semibold">Who We Are</h2>
+        <Image src="/arrow.svg" width={60} height={10} alt="arrow" />
+      </div>
       <div className="flex justify-center px-4">
-        <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 w-full">
           {whoWeAreData.map((item, index) => {
             const getBackgroundColor = (index) => {
               switch (index) {
@@ -29,7 +31,7 @@ const WhoWeAre = () => {
                 className="flex group transition-all duration-300 cursor-pointer"
               >
                 <div
-                  className={`rounded-2xl w-[325px] flex flex-col transition-all duration-300 group-hover:bg-white ${getBackgroundColor(
+                  className={`rounded-2xl flex flex-col transition-all duration-300 group-hover:bg-white w-[368px] ${getBackgroundColor(
                     index
                   )}`}
                   // style={{ backgroundColor: item.bgColor }}
@@ -37,13 +39,13 @@ const WhoWeAre = () => {
                   <div className="overflow-hidden rounded-t-2xl">
                     <Image
                       src={item.imageUrl}
-                      width={300}
-                      height={200}
+                      width={368}
+                      height={250}
                       alt={item.title}
-                      className="rounded-t-2xl w-full h-[200px] transition-transform duration-300 group-hover:scale-105"
+                      className="rounded-t-2xl w-full transition-transform duration-300 group-hover:scale-105"
                     />
                   </div>
-                  <div className="p-5 flex flex-col items-center gap-3 flex-grow">
+                  <div className="py-8 px-5 flex flex-col items-center justify-center gap-3 flex-grow">
                     <h3 className="text-white text-2xl font-semibold text-center transition-all duration-300 group-hover:text-black">
                       {item.title}
                     </h3>

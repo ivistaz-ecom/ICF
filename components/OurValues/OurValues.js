@@ -20,7 +20,7 @@ const OurValues = () => {
   }
 
   return (
-    <div className="min-h-screen px-5 bg-[url('/banner02.png')] bg-contain bg-no-repeat mt-28">
+    <div className="min-h-screen px-5 bg-[url('/banner02.png')] bg-contain bg-no-repeat mt-24">
       <div className="h-full gap-10 md:gap-16 max-w-screen-xl mx-auto">
         <div className="text-center mb-16 flex flex-col items-center">
           <h2 className="text-icf-black text-2xl md:text-3xl font-semibold">

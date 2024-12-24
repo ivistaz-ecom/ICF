@@ -166,28 +166,37 @@ export const leadershipData = [
 export const ourDomainsData = [
   {
     iconUrl: "/ourDomains/icon01.svg",
-    imageUrl: "/ourDomains/image01.png",
+    imageUrl: "/ourDomains/image1.png",
     title: "Health",
-    borderColor: "#0172BB",
+    desc1: "Improving access to quality healthcare and preventative services.",
+    desc2:
+      "Powering individuals and communities through community-based health initiatives.",
   },
   {
     iconUrl: "/ourDomains/icon02.svg",
-    imageUrl: "/ourDomains/image02.png",
+    imageUrl: "/ourDomains/image2.png",
     title: "Livelihood",
-    borderColor: "#FDB622",
+    desc1:
+      "Creating economic opportunities and sustainable income sources for marginalized populations.",
+    desc2:
+      "Building financial resilience by addressing systemic livelihood challenges.",
   },
   {
     iconUrl: "/ourDomains/icon03.svg",
-    imageUrl: "/ourDomains/image03.png",
+    imageUrl: "/ourDomains/image3.png",
     title: "Workforce Wellbeing",
-    borderColor: "#E53990",
+    desc1: "Enhancing health, safety, and welfare for all workers.",
+    desc2: "Promoting balanced, supportive, and sustainable work environments.",
   },
-  {
-    iconUrl: "/ourDomains/icon04.png",
-    imageUrl: "/ourDomains/image04.png",
-    title: "Climate",
-    borderColor: "#31AA2D",
-  },
+  // {
+  //   iconUrl: "/ourDomains/icon04.png",
+  //   imageUrl: "/ourDomains/image4.png",
+  //   title: "Climate",
+  //   desc1:
+  //     "Addressing urgent environmental challenges impacting people and ecosystems.",
+  //   desc2:
+  //     "Championing climate solutions that foster resilience and environmental stewardship.",
+  // },
 ]
 
 export const ourValuesData = [
@@ -226,5 +235,78 @@ export const ourValuesData = [
       "We will be genuine, speak our minds gently, honestly, respectfully, firmly and with conviction.",
     desc03:
       "We know it’s a journey; a journey motivated by our beliefs and the desire to live these values and practise them arduously and demonstrate our commitment through our behaviours; one in which we seek to learn, live to our ideals, be humble and keep marching together one step at a time towards our shared future!",
+  },
+]
+
+export const statutoryComplianceData = [
+  {
+    si: 1,
+    authority:
+      "Ministry of Corporate Affairs, Office of the Registrar of Companies",
+    actSection: "Section 8 (1) of the Companies Act, 2013",
+    registrationDetails: "CIN: U85300KA2021NPL146374",
+    date: "12th April 2021",
+  },
+  {
+    si: 2,
+    authority:
+      "Principal Commissioner of Income Tax/Commissioner of Income Tax",
+    actSection: "Indian Income Tax Act, 1961, U/s. 12A",
+    registrationDetails: "URN: AAGCI1041L23BL01",
+    date: "12th March 2024",
+  },
+  {
+    si: 3,
+    authority:
+      "Principal Commissioner of Income Tax/Commissioner of Income Tax",
+    actSection: "Indian Income Tax Act, 1961, U/s. 80G",
+    registrationDetails: "URN: AAGCI1041L24BL01",
+    date: "03rd May 2024",
+  },
+  {
+    si: 4,
+    authority:
+      "Office of Registrar of Companies, Ministry of Corporate Affairs, Govt of India",
+    actSection:
+      "Section 8 (1) of the Companies Act, 2013, Pursuant to rule 20 the Companies (Incorporation) rule, 2014",
+    registrationDetails: "Licence Number: 124873",
+    date: "12th April 2021",
+  },
+  {
+    si: 5,
+    authority: "The Professional Tax Officer",
+    actSection: "Karnataka State Professional Tax Act, 1976",
+    registrationDetails: "RC no. 379115689",
+    date: "2nd June 2021",
+  },
+  {
+    si: 6,
+    authority: "NITI Aayog",
+    actSection: "NGO Darpan",
+    registrationDetails: "KA/2023/0368384",
+    date: "4th April 2024",
+  },
+  {
+    si: 7,
+    authority: "The Commissioner of Provident Fund, Bangalore",
+    actSection:
+      "U/s. 1 (4) Employee Provident Fund and Miscellaneous Provisions Act, 1985",
+    registrationDetails: "BGBNG2351726000",
+    date: "31st May 2024",
+  },
+  {
+    si: 8,
+    authority: "Employees State Insurance Corporation",
+    actSection: "Employees State Insurance Act, 1948",
+    registrationDetails: "49000453660000999",
+    date: "31st May 2024",
+  },
+  {
+    si: 9,
+    authority:
+      "Ministry of Corporate Affairs, Office of the Registrar of Companies",
+    actSection: "Section 135 of the Companies Act, 2013 ('Act')",
+    registrationDetails: "CSR00072401",
+    date: "06th May 2024",
   },
 ]
