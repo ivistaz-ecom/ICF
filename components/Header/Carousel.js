@@ -21,16 +21,20 @@ const Carousel = () => {
   return (
     <div className="relative w-full max-w-screen-lg mx-auto">
       <Slider {...settings}>
-        <div>
+        <div className="relative">
           <Image
             src="/banner/banner01.png"
             width={800}
             height={400}
-            alt="banner 01"
+            alt="banner 02"
             className="w-full h-auto"
           />
+          <p className="text-white text-3xl font-semibold text-center absolute inset-0 top-1/2 flex justify-center items-center">
+            Driving Impact with <br /> Innovation and Purpose
+          </p>
         </div>
-        <div>
+
+        <div className="relative">
           <Image
             src="/banner/banner02.png"
             width={800}
@@ -38,6 +42,9 @@ const Carousel = () => {
             alt="banner 02"
             className="w-full h-auto"
           />
+          <p className="text-white text-3xl font-semibold text-center absolute inset-0 top-1/2 flex justify-center items-center">
+            Driving Impact with <br /> Innovation and Purpose
+          </p>
         </div>
       </Slider>
     </div>

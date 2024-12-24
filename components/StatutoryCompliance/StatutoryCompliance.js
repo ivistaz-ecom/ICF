@@ -16,17 +16,19 @@ const StatutoryCompliance = () => {
         <table className="min-w-full border-collapse border border-gray-300">
           <thead className="bg-[#E53990] text-white">
             <tr>
-              <th className="border border-gray-300 px-4 py-2 text-left">SI</th>
-              <th className="border border-gray-300 px-4 py-2 text-left">
+              <th className="border border-[#DE9EBE] px-4 py-2 text-left">
+                SI
+              </th>
+              <th className="border border-[#DE9EBE] px-4 py-2 text-left">
                 Statutory Authority
               </th>
-              <th className="border border-gray-300 px-4 py-2 text-left">
+              <th className="border border-[#DE9EBE] px-4 py-2 text-left">
                 Act and Section
               </th>
-              <th className="border border-gray-300 px-4 py-2 text-left">
+              <th className="border border-[#DE9EBE] px-4 py-2 text-left">
                 Registration Details
               </th>
-              <th className="border border-gray-300 px-4 py-2 text-left">
+              <th className="border border-[#DE9EBE] px-4 py-2 text-left">
                 Date of Registration and Compliance
               </th>
             </tr>
@@ -34,17 +36,19 @@ const StatutoryCompliance = () => {
           <tbody>
             {statutoryComplianceData.map((row, index) => (
               <tr key={index} className="hover:bg-gray-100 bg-[#FFE2F0]">
-                <td className="border border-gray-300 px-4 py-2">{row.si}</td>
-                <td className="border border-gray-300 px-4 py-2">
+                <td className="border border-[#DE9EBE] px-4 py-2">{row.si}</td>
+                <td className="border border-[#DE9EBE] px-4 py-2">
                   {row.authority}
                 </td>
-                <td className="border border-gray-300 px-4 py-2">
+                <td className="border border-[#DE9EBE] px-4 py-2">
                   {row.actSection}
                 </td>
-                <td className="border border-gray-300 px-4 py-2">
+                <td className="border border-[#DE9EBE] px-4 py-2">
                   {row.registrationDetails}
                 </td>
-                <td className="border border-gray-300 px-4 py-2">{row.date}</td>
+                <td className="border border-[#DE9EBE] px-4 py-2">
+                  {row.date}
+                </td>
               </tr>
             ))}
           </tbody>
