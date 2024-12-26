@@ -16,6 +16,24 @@ const Carousel = () => {
     autoplay: true,
     autoplaySpeed: 3000,
     arrows: false,
+    customPaging: (i) => (
+      <div className="w-4 h-4 rounded-full border-2 border-gray-300 flex justify-center items-center mt-3">
+        <div className="w-3 h-3 rounded-full bg-black opacity-0" />
+      </div>
+    ),
+    appendDots: (dots) => (
+      <div
+        style={{
+          position: "absolute",
+          bottom: "-20px",
+          display: "flex",
+          justifyContent: "center",
+          gap: "10px",
+        }}
+      >
+        {dots}
+      </div>
+    ),
   }
 
   return (

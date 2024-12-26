@@ -1,5 +1,6 @@
 import DrivingLastingImpact from "@/components/DrivingLastingImpact/DrivingLastingImpact"
 import Footer from "@/components/Footer/Footer"
+import GetInTouch from "@/components/GetInTouch/GetInTouch"
 import Header from "@/components/Header/Header"
 import Leadership from "@/components/Leadership/Leadership"
 import OurApproach from "@/components/OurApproach/OurApproach"

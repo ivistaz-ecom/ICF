@@ -106,6 +106,29 @@ export const whatWeDoData = [
   },
 ]
 
+export const initiativesProjectsData = [
+  {
+    logoUrl: "/whatWeDo/initiativesProjects/logo01.png",
+    title:
+      "<strong>Invest4Wellness (i4we):</strong> A scalable innovation in affordable, quality-assured healthcare systems.",
+  },
+  {
+    logoUrl: "/whatWeDo/initiativesProjects/logo02.png",
+    title:
+      "<strong>The 3Fold Model:</strong> A transformative approach to farmer extension, credit, agriculture, and food systems, designed to triple small farmers’ income over five years.",
+  },
+  {
+    logoUrl: "/whatWeDo/initiativesProjects/logo03.png",
+    title:
+      "<strong>Upfront:</strong> Powering all workers by improving health, safety, financial security, and fostering inclusive workplaces.",
+  },
+  {
+    logoUrl: "/whatWeDo/initiativesProjects/logo04.png",
+    title:
+      "<strong>Regenerative Agriculture and Technology:</strong> Promoting sustainable farming to restore soil health, biodiversity, and farmer resilience.",
+  },
+]
+
 export const OurOfferingsData = [
   {
     iconUrl: "/ourOfferings/icon01.svg",
@@ -188,15 +211,15 @@ export const ourDomainsData = [
     desc1: "Enhancing health, safety, and welfare for all workers.",
     desc2: "Promoting balanced, supportive, and sustainable work environments.",
   },
-  // {
-  //   iconUrl: "/ourDomains/icon04.png",
-  //   imageUrl: "/ourDomains/image4.png",
-  //   title: "Climate",
-  //   desc1:
-  //     "Addressing urgent environmental challenges impacting people and ecosystems.",
-  //   desc2:
-  //     "Championing climate solutions that foster resilience and environmental stewardship.",
-  // },
+  {
+    iconUrl: "/ourDomains/icon04.png",
+    imageUrl: "/ourDomains/image4.png",
+    title: "Climate",
+    desc1:
+      "Addressing urgent environmental challenges impacting people and ecosystems.",
+    desc2:
+      "Championing climate solutions that foster resilience and environmental stewardship.",
+  },
 ]
 
 export const ourValuesData = [

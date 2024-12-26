@@ -1,64 +1,11 @@
 import { leadershipData, whyChooseData } from "@/utils/data"
 import React from "react"
+import GetInTouch from "../GetInTouch/GetInTouch"
 
 const Footer = () => {
   return (
     <>
-      <div className="overflow-hidden p-5 mt-24">
-        <ul className="flex gap-5 animate-scroll">
-          {/* Original Items */}
-          <li className="flex items-center gap-3 whitespace-nowrap">
-            <div className="border-b border-icf-black w-32" />
-            <p className="text-3xl text-[#0172BB] font-semibold">
-              Get in Touch
-            </p>
-          </li>
-          <li className="flex items-center gap-3 whitespace-nowrap">
-            <div className="border-b border-icf-black w-32" />
-            <p className="text-3xl text-[#E53990] font-semibold">
-              Get in Touch
-            </p>
-          </li>
-          <li className="flex items-center gap-3 whitespace-nowrap">
-            <div className="border-b border-icf-black w-32" />
-            <p className="text-3xl text-[#31AA2D] font-semibold">
-              Get in Touch
-            </p>
-          </li>
-          <li className="flex items-center gap-3 whitespace-nowrap">
-            <div className="border-b border-icf-black w-32" />
-            <p className="text-3xl text-[#FDB622] font-semibold">
-              Get in Touch
-            </p>
-          </li>
-
-          {/* Duplicate the items for continuous scrolling */}
-          <li className="flex items-center gap-3 whitespace-nowrap">
-            <div className="border-b border-icf-black w-32" />
-            <p className="text-3xl text-[#0172BB] font-semibold">
-              Get in Touch
-            </p>
-          </li>
-          <li className="flex items-center gap-3 whitespace-nowrap">
-            <div className="border-b border-icf-black w-32" />
-            <p className="text-3xl text-[#E53990] font-semibold">
-              Get in Touch
-            </p>
-          </li>
-          <li className="flex items-center gap-3 whitespace-nowrap">
-            <div className="border-b border-icf-black w-32" />
-            <p className="text-3xl text-[#31AA2D] font-semibold">
-              Get in Touch
-            </p>
-          </li>
-          <li className="flex items-center gap-3 whitespace-nowrap">
-            <div className="border-b border-icf-black w-32" />
-            <p className="text-3xl text-[#FDB622] font-semibold">
-              Get in Touch
-            </p>
-          </li>
-        </ul>
-      </div>
+      <GetInTouch />
 
       <div className="bg-icf-black p-8 md:p-16 flex items-center justify-center">
         <div className="flex flex-col items-center w-11/12 md:w-10/12 gap-6 md:gap-10 max-w-screen-xl mx-auto">
