@@ -39,7 +39,7 @@ const Carousel = () => {
   return (
     <div className="relative w-full max-w-screen-lg mx-auto">
       <Slider {...settings}>
-        <div className="relative">
+        <div className="">
           <Image
             src="/banner/banner01.png"
             width={800}
@@ -52,7 +52,7 @@ const Carousel = () => {
           </p> */}
         </div>
 
-        <div className="relative">
+        <div className="">
           <Image
             src="/banner/banner02.png"
             width={800}
