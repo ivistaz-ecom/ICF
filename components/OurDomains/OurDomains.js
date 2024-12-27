@@ -18,7 +18,7 @@ const OurDomains = () => {
     arrows: false,
     customPaging: (i) => (
       <div className="w-4 h-4 rounded-full border border-gray-300 flex justify-center items-center mt-5">
-        <div className="w-3 h-3 rounded-full bg-black opacity-40" />
+        <div className="w-3 h-3 rounded-full bg-black opacity-50" />
       </div>
     ),
     appendDots: (dots) => (

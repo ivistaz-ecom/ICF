@@ -6,7 +6,7 @@ import Image from "next/image"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 
-const Carousel = () => {
+const HCarousel = () => {
   const settings = {
     dots: true,
     infinite: true,
@@ -69,4 +69,4 @@ const Carousel = () => {
   )
 }
 
-export default Carousel
+export default HCarousel

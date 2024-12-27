@@ -3,7 +3,7 @@ import React from "react"
 
 const DrivingLastingImpact = () => {
   return (
-    <div className="bg-gradient-to-l from-[#FFE0F0] to-[#FFFAEF] p-5 sm:p-10 mt-24">
+    <div className="bg-gradient-to-l from-[#FFE0F0] to-[#FFFAEF] p-5 sm:p-10 mt-10">
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center gap-5 sm:gap-7 px-4 sm:px-10">
         {/* Heading Section */}
         <div className="flex flex-col items-center gap-3">

@@ -1,10 +1,10 @@
 import Image from "next/image"
 import React from "react"
-import Carousel from "./Carousel"
+import HCarousel from "./HCarousel"
 
 const Header = () => {
   return (
-    <div className="bg-[url('/mBanner01.png')] md:bg-[url('/banner.png')] h-auto md:min-h-screen bg-cover bg-no-repeat">
+    <div className="bg-[url('/mBanner01.png')] md:bg-[url('/banner.png')] min-h-[50vh] bg-cover bg-no-repeat">
       <div className="flex flex-col gap-10 md:gap-20 md:items-center p-5 max-w-screen-xl mx-auto">
         {/* Header */}
         <div className="flex justify-between items-center w-full">
@@ -27,7 +27,7 @@ const Header = () => {
 
         {/* Carousel */}
         <div className="relative">
-          <Carousel />
+          <HCarousel />
           <p className="text-white text-3xl font-semibold text-center absolute inset-0 top-1/2 flex justify-center items-center">
             Driving Impact with <br /> Innovation and Purpose
           </p>
