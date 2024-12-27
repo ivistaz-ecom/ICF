@@ -191,34 +191,34 @@ export const ourDomainsData = [
     iconUrl: "/ourDomains/icon01.svg",
     imageUrl: "/ourDomains/image1.png",
     title: "Health",
-    desc1: "Improving access to quality healthcare and preventative services.",
+    desc1: "Improving access to quality healthcare and preventative services",
     desc2:
-      "Powering individuals and communities through community-based health initiatives.",
+      "Powering individuals and communities through community-based health initiatives",
   },
   {
     iconUrl: "/ourDomains/icon02.svg",
     imageUrl: "/ourDomains/image2.png",
     title: "Livelihood",
     desc1:
-      "Creating economic opportunities and sustainable income sources for marginalized populations.",
+      "Creating economic opportunities and sustainable income sources for marginalized populations",
     desc2:
-      "Building financial resilience by addressing systemic livelihood challenges.",
+      "Building financial resilience by addressing systemic livelihood challenges",
   },
   {
     iconUrl: "/ourDomains/icon03.svg",
     imageUrl: "/ourDomains/image3.png",
     title: "Workforce Wellbeing",
-    desc1: "Enhancing health, safety, and welfare for all workers.",
-    desc2: "Promoting balanced, supportive, and sustainable work environments.",
+    desc1: "Enhancing health, safety, and welfare for all workers",
+    desc2: "Promoting balanced, supportive, and sustainable work environments",
   },
   {
     iconUrl: "/ourDomains/icon04.png",
     imageUrl: "/ourDomains/image4.png",
     title: "Climate",
     desc1:
-      "Addressing urgent environmental challenges impacting people and ecosystems.",
+      "Addressing urgent environmental challenges impacting people and ecosystems",
     desc2:
-      "Championing climate solutions that foster resilience and environmental stewardship.",
+      "Championing climate solutions that foster resilience and environmental stewardship",
   },
 ]
 

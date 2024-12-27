@@ -48,6 +48,14 @@ const OurApproach = () => {
           </div>
         </div>
       </div>
+
+      <div className="max-w-3xl mx-auto mt-24">
+        <p className="text-[#171717] text-2xl text-center">
+          We focus on driving systemic, purpose-driven solutions that address
+          societal challenges at their roots, ensuring lasting impact and equity
+          for communities and ecosystems alike.
+        </p>
+      </div>
     </div>
   )
 }

@@ -37,7 +37,7 @@ const Carousel = () => {
   }
 
   return (
-    <div className="relative w-full max-w-screen-lg mx-auto">
+    <div className="w-full max-w-screen-lg mx-auto">
       <Slider {...settings}>
         <div className="">
           <Image
