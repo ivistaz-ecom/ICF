@@ -4,7 +4,7 @@ import React from "react"
 
 const WhoWeAre = () => {
   return (
-    <div className="max-w-screen-xl mx-auto flex flex-col items-center gap-7 mt-7 md:mt-24">
+    <div className="max-w-screen-xl mx-auto flex flex-col items-center gap-7 mt-7 md:mt-20">
       <div className="flex flex-col items-center gap-3">
         <h2 className="text-icf-black text-3xl font-semibold">Who We Are</h2>
         <Image src="/arrow.svg" width={60} height={10} alt="arrow" />

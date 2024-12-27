@@ -4,7 +4,7 @@ import Carousel from "./Carousel"
 
 const Header = () => {
   return (
-    <div className="bg-[url('/mBanner01.png')] md:bg-[url('/banner.png')] h-auto md:h-screen bg-cover bg-no-repeat">
+    <div className="bg-[url('/mBanner01.png')] md:bg-[url('/banner.png')] h-auto md:min-h-screen bg-cover bg-no-repeat">
       <div className="flex flex-col gap-10 md:gap-20 md:items-center p-5 max-w-screen-xl mx-auto">
         {/* Header */}
         <div className="flex justify-between items-center w-full">
