@@ -40,30 +40,27 @@ const HCarousel = () => {
   return (
     <div className="w-full max-w-screen-lg mx-auto">
       <Slider {...settings}>
-        <Image
-          src="/banner1.png"
-          width={800}
-          height={400}
-          alt="banner 01"
-          className="w-full"
-          priority
-        />
-        <Image
-          src="/banner2.png"
-          width={800}
-          height={400}
-          alt="banner 02"
-          className="w-full"
-          priority
-        />
-        <Image
-          src="/banner3.png"
-          width={800}
-          height={400}
-          alt="banner 03"
-          className="w-full"
-          priority
-        />
+        <div>
+          <img
+            src="/banner1.png"
+            alt="banner 1"
+            className="w-full h-auto object-cover"
+          />
+        </div>
+        <div>
+          <img
+            src="/banner2.png"
+            alt="banner 2"
+            className="w-full h-auto object-cover"
+          />
+        </div>
+        <div>
+          <img
+            src="/banner3.png"
+            alt="banner 3"
+            className="w-full h-auto object-cover"
+          />
+        </div>
       </Slider>
     </div>
   )
