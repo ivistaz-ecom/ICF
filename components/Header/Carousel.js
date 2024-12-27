@@ -16,6 +16,7 @@ const Carousel = () => {
     autoplay: true,
     autoplaySpeed: 3000,
     arrows: false,
+    fade: true,
     customPaging: (i) => (
       <div className="w-4 h-4 rounded-full border-2 border-gray-300 flex justify-center items-center mt-3">
         <div className="w-3 h-3 rounded-full bg-black opacity-0" />
@@ -63,6 +64,16 @@ const Carousel = () => {
           {/* <p className="text-white text-3xl font-semibold text-center absolute inset-0 top-1/2 flex justify-center items-center">
             Driving Impact with <br /> Innovation and Purpose
           </p> */}
+        </div>
+
+        <div className="">
+          <Image
+            src="/banner/banner03.png"
+            width={800}
+            height={400}
+            alt="banner 03"
+            className="w-full h-auto"
+          />
         </div>
       </Slider>
     </div>
