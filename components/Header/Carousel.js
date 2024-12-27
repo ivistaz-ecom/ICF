@@ -44,8 +44,9 @@ const Carousel = () => {
           src="/banner1.png"
           width={800}
           height={400}
-          alt="banner 02"
+          alt="banner 01"
           className="w-full"
+          priority
         />
         <Image
           src="/banner2.png"
@@ -53,6 +54,7 @@ const Carousel = () => {
           height={400}
           alt="banner 02"
           className="w-full"
+          priority
         />
         <Image
           src="/banner3.png"
@@ -60,6 +62,7 @@ const Carousel = () => {
           height={400}
           alt="banner 03"
           className="w-full"
+          priority
         />
       </Slider>
     </div>
