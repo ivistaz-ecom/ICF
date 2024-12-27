@@ -1,6 +1,6 @@
 export const whoWeAreData = [
   {
-    imageUrl: "/whoWeAre/img01.png",
+    imageUrl: "/whoWeAre/img1.png",
     title: "Commitment to Impact",
     desc: "At the Impact Catalyst Foundation, we are committed to creating purpose driven meaningful, lasting impact for communities",
     bgColor: "#E53990",
@@ -12,7 +12,7 @@ export const whoWeAreData = [
     bgColor: "#31AA2D",
   },
   {
-    imageUrl: "/whoWeAre/img03.png",
+    imageUrl: "/whoWeAre/img3.png",
     title: "Innovative Solutions",
     desc: "We develop innovative, scalable solutions to drive systemic change and create lasting impact in the communities we serve",
     bgColor: "#FDB622",
@@ -108,12 +108,12 @@ export const whatWeDoData = [
 
 export const initiativesProjectsData = [
   {
-    logoUrl: "/whatWeDo/initiativesProjects/logo01.png",
+    logoUrl: "/whatWeDo/initiativesProjects/logo1.png",
     title:
       "<strong>Invest4Wellness (i4we):</strong> A scalable innovation in affordable, quality-assured healthcare systems.",
   },
   {
-    logoUrl: "/whatWeDo/initiativesProjects/logo02.png",
+    logoUrl: "/whatWeDo/initiativesProjects/logo2.png",
     title:
       "<strong>The 3Fold Model:</strong> A transformative approach to farmer extension, credit, agriculture, and food systems, designed to triple small farmers’ income over five years.",
   },
@@ -224,7 +224,7 @@ export const ourDomainsData = [
 
 export const ourValuesData = [
   {
-    imageUrl: "/ourValues/image01.png",
+    imageUrl: "/ourValues/image1.png",
     title: "“Driven by Purpose, Vision and Meaning”",
     subtitle:
       "All our actions are driven by our shared “purpose”, our “vision” for the future and the personal “meaning” and joy that we derive from our work.",
