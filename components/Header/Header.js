@@ -26,7 +26,12 @@ const Header = () => {
         </div>
 
         {/* Carousel */}
-        <Carousel />
+        <div className="relative">
+          <Carousel />
+          <p className="text-white text-3xl font-semibold text-center absolute inset-0 top-1/2 flex justify-center items-center">
+            Driving Impact with <br /> Innovation and Purpose
+          </p>
+        </div>
 
         {/* Description */}
         <div className="text-center px-5 sm:px-10 md:px-20">

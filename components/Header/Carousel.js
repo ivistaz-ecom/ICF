@@ -47,9 +47,9 @@ const Carousel = () => {
             alt="banner 02"
             className="w-full h-auto"
           />
-          <p className="text-white text-3xl font-semibold text-center absolute inset-0 top-1/2 flex justify-center items-center">
+          {/* <p className="text-white text-3xl font-semibold text-center absolute inset-0 top-1/2 flex justify-center items-center">
             Driving Impact with <br /> Innovation and Purpose
-          </p>
+          </p> */}
         </div>
 
         <div className="relative">
@@ -60,9 +60,9 @@ const Carousel = () => {
             alt="banner 02"
             className="w-full h-auto"
           />
-          <p className="text-white text-3xl font-semibold text-center absolute inset-0 top-1/2 flex justify-center items-center">
+          {/* <p className="text-white text-3xl font-semibold text-center absolute inset-0 top-1/2 flex justify-center items-center">
             Driving Impact with <br /> Innovation and Purpose
-          </p>
+          </p> */}
         </div>
       </Slider>
     </div>
