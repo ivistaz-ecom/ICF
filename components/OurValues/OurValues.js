@@ -18,8 +18,8 @@ const OurValues = () => {
     autoplaySpeed: 3000,
     arrows: false,
     customPaging: (i) => (
-      <div className="w-4 h-4 rounded-full border-2 border-gray-300 flex justify-center items-center mt-5">
-        <div className="w-3 h-3 rounded-full bg-[#0172BB] opacity-0" />
+      <div className="w-4 h-4 rounded-full border border-gray-300 flex justify-center items-center mt-5">
+        <div className="w-3 h-3 rounded-full bg-[#0172BB] opacity-40" />
       </div>
     ),
     appendDots: (dots) => (

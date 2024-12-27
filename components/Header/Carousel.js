@@ -18,8 +18,8 @@ const Carousel = () => {
     arrows: false,
     fade: true,
     customPaging: (i) => (
-      <div className="w-4 h-4 rounded-full border-2 border-gray-300 flex justify-center items-center mt-3">
-        <div className="w-3 h-3 rounded-full bg-black opacity-0" />
+      <div className="w-4 h-4 rounded-full border border-gray-300 flex justify-center items-center mt-3">
+        <div className="w-3 h-3 rounded-full bg-[#E53990] opacity-40" />
       </div>
     ),
     appendDots: (dots) => (
