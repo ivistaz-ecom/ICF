@@ -10,11 +10,11 @@ const Header = () => {
         <div className="flex justify-between items-center w-full">
           <div className="bg-transparent w-8 sm:w-10"></div>
           <Image
-            src="/logo.png"
-            width={120}
-            height={100}
+            src="/logo-v2.png"
+            width={188}
+            height={140}
             alt="logo"
-            className="w-[120px] h-[100px] md:w-[154px] md:h-[136px]"
+            className="w-[120px] h-[100px] md:w-[188px] md:h-[140px]"
           />
 
           {/* Contact us button */}
@@ -28,7 +28,7 @@ const Header = () => {
         {/* Carousel */}
         <div className="relative">
           <HCarousel />
-          <p className="text-white text-3xl font-semibold text-center absolute inset-0 top-1/2 flex justify-center items-center">
+          <p className="text-white text-lg sm:text-3xl font-semibold text-center absolute inset-0 top-1/2 flex justify-center items-center">
             Driving Impact with <br /> Innovation and Purpose
           </p>
         </div>
