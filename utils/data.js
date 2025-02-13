@@ -162,27 +162,51 @@ export const whyChooseData = [
 export const leadershipData = [
   {
     dummyImage: "/avatar.svg",
-    imageUrl: "",
-    name: "Name",
-    title: "Lorem Ipsum has been the industry’s standard dummy text",
+    imageUrl: "/leadership/rb.png",
+    name: "Raghini Badhrinarayanan",
+    desc1:
+      "<strong>Raghini Badhrinarayanan</strong> is a seasoned expert in the livelihood domain, with over three decades of experience driving impactful rural development and poverty alleviation initiatives. Currently the CEO of <strong>Vrutti - Livelihood Impact Partners</strong>, Raghini has been instrumental in enabling sustainable economic opportunities for underserved communities. Her strategic leadership has advanced efforts in corporate social responsibility, capacity building, and microfinance, empowering countless lives.",
+    desc2:
+      "Raghini's extensive career includes pivotal roles such as Managing Director at Sarvodaya Nano Finance and Program Leader at DHAN Foundation, where she orchestrated large-scale interventions in financial inclusion and community development. Her academic foundation from the Institute of Rural Management, Anand, complements her hands-on expertise in designing and implementing transformative projects.",
+    desc3:
+      "A passionate advocate for equitable growth, Raghini combines deep technical know-how with a commitment to building resilient livelihoods, fostering community empowerment, and championing innovative solutions to tackle socio-economic challenges.",
+    link: "https://www.linkedin.com/in/raghini-badhrinarayanan-a32b277/",
   },
   {
     dummyImage: "/avatar.svg",
-    imageUrl: "",
-    name: "Name",
-    title: "Lorem Ipsum has been the industry’s standard dummy text",
+    imageUrl: "/leadership/ac.png",
+    name: "Angela Chaudhuri",
+    desc1:
+      "<strong>Angela Chaudhuri</strong> is a seasoned health domain expert with over two decades of experience transforming public health strategies into impactful community action. As the Chief Catalyst at <strong>Swasti Health Catalyst</strong>, Angela leads initiatives focused on equitable health and well-being, striving to add 1 million healthy days to the lives of marginalized communities by 2030.",
+    desc2:
+      "Angela has spearheaded critical programs addressing the needs of at-risk adolescents, gender-diverse groups, and vulnerable populations affected by crises. Her leadership in the <strong>COVIDActionCollab</strong> exemplifies her ability to orchestrate multi-disciplinary partnerships, providing health, counseling, and social protection services to millions during humanitarian crises.",
+    desc3:
+      "With an MPH from Boston University and a strong foundation in dentistry and journalism, Angela’s expertise spans strategy, systems strengthening, and innovation in health promotion and prevention. Her global footprint, having worked across 30 countries, reflects her commitment to leaving no one behind, making her a transformative leader in public health.",
+    link: "https://www.linkedin.com/in/angelachaudhuri/",
   },
   {
     dummyImage: "/avatar.svg",
-    imageUrl: "",
-    name: "Name",
-    title: "Lorem Ipsum has been the industry’s standard dummy text",
+    imageUrl: "/leadership/sc.png",
+    name: "Shaonli Chakraborty",
+    desc1:
+      "<strong>Shaonli Chakraborty</strong> is a recognized workforce well-being expert with over two decades of experience driving transformative health and inclusion initiatives across diverse sectors. As the CEO of <strong>Upfront</strong>, part of the Catalyst Group, she leads programs designed to enhance employee health, safety, and productivity while fostering a culture of respect, fairness, and inclusion.",
+    desc2:
+      "Shaonli’s work integrates health and well-being strategies with gender, equality, diversity, and inclusion frameworks, ensuring organizations adopt holistic approaches to workforce development. Her expertise extends to addressing systemic barriers to health and promoting equitable access to resources, creating resilient workplaces that empower employees and employers alike.",
+    desc3:
+      "With a strong foundation in biotechnology and environmental sciences, Shaonli combines scientific rigor with a deep commitment to social equity. Her innovative leadership has positively impacted thousands of workers globally, making her a trusted advocate for workforce well-being and sustainable organizational growth.",
+    link: "https://www.linkedin.com/in/shaonli-chakraborty-58936b7/",
   },
   {
     dummyImage: "/avatar.svg",
-    imageUrl: "",
-    name: "Name",
-    title: "Lorem Ipsum has been the industry’s standard dummy text",
+    imageUrl: "/leadership/sp.png",
+    name: "Sandip Pattanayak",
+    desc1:
+      "<strong>Sandip Pattanayak</strong> is a renowned domain expert in climate action and regenerative agriculture, with over two decades of experience driving sustainable solutions in food systems and rural development. As CEO of <strong>GREEN Foundation</strong>, Sandip has been at the forefront of implementing climate-resilient agricultural practices and fostering regenerative models that empower communities while preserving ecosystems.",
+    desc2:
+      "His expertise lies in designing and managing programs that address the twin challenges of climate change and agricultural sustainability. Sandip has led initiatives to integrate regenerative practices into value chains, enhance soil health, promote biodiversity, and support farmers in adopting eco-friendly methodologies. His leadership has resulted in scalable solutions that not only improve livelihoods but also contribute to long-term environmental resilience.",
+    desc3:
+      "With advanced academic credentials in development studies and food systems from the University of East Anglia, Sandip combines strategic vision with grassroots expertise, positioning him as a key thought leader in climate-smart and regenerative agricultural development.",
+    link: "https://www.linkedin.com/in/sandip-pattanayak/",
   },
 ]
 
